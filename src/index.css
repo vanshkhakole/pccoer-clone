@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 768px) 
+{
+    .international{
+        background-color: blueviolet;
+    }
+    .hello{
+        background-color: rgb(255, 0, 64);
+    }
+}
+    
+
+
+@media(max-width:1440){
+
+
+    .internationaldiv {
+        display: flex;
+   }
+
+
+}
+   .internationaldiv {
+        display: flex;
+   }
